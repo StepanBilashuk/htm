@@ -1,0 +1,28 @@
+.nav__header_icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-links {
+    font-size: 17px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links li:first-child {
+    margin-left: 0;
+}
+
+.nav-links a:hover {
+    color: var(--buttons-color);
+}

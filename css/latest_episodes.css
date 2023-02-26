@@ -1,0 +1,42 @@
+.latest__episodes {
+    color: var(--main-text-color);
+}
+
+.episode__container {
+    display: flex;
+    border-radius: 20px;
+    margin: 60px;
+    background-color:var(--background-element-color);
+    padding: 15px;
+}
+.episode__photo{
+    flex-basis: 33.33%;
+}
+.container__information{
+    flex-basis: 66.66%;
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+}
+.title__latest_episodes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.latest__episodes_text{
+    font-size: 64px;
+    letter-spacing: 2.88px;
+}
+.episode__button{
+    border: none;
+    display: inline-block;
+    border-radius:10px;
+    text-decoration: none;
+    background-color:var(--buttons-color);
+    height: 50px;
+    width: 180px;
+    color:var(--main-text-color);
+}
+.episode__photo{
+    margin-left: 20px;
+}

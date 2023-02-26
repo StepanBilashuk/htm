@@ -1,27 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
-</head>
-<body>
-    <header id="home">
-        <nav>
-            <div class="#logo">
-                <img src="img/baby_yoda.jpg" alt="baby_yoda">
-            </div>
-            <div class="#home">Home</div>
-            <div class="#contact">Contact</div>
-        </nav>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <nav class="nav__header_icons">
+        <div class="header__logo">
+          <img src="img/main-logo.svg" alt="Header logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Episodes</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
     </header>
-    <main>
-        <h1>Hello World from Stepan Bilashuk</h1>
-    </main>
-    <footer id="Contact">
-        
-    </footer>
-</body>
+    <section class="about__speaker container">
+      <div class="photo__podcater">
+        <img
+          src="img/about_speaker/photo-podcater.svg"
+          alt="Speaking podcaster"
+        />
+      </div>
+      <div class="title__about_speaker">
+        <h1>Take your podcast to the <span>next</span> <em>level</em>.</h1>
+        <div class="icons__about_speakers">
+          <p class="title__listen">Listen on</p>
+          <div class="icons__media-links">
+            <a href="#"
+              ><img src="img/icons/Spotify.svg" alt="Spotify icon"
+            /></a>
+            <a href="#"><img src="img/icons/Undef.svg" alt="Undef icon" /></a>
+            <a href="#"
+              ><img src="img/icons/Soundcloud.svg" alt="Soundcloud icon"
+            /></a>
+            <a href="#"
+              ><img src="img/icons/ApplePodcast.svg" alt="Apple podcast icon"
+            /></a>
+            <a href="#"
+              ><img src="img/icons/PodcastIcon.svg" alt="Podcast radio icon"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="latest__episodes container">
+      <div class="title__latest_episodes">
+        <p class="latest__episodes_text">Latest episodes</p>
+        <button class="episode__button">View all episodes</button>
+      </div>
+        <div class="episode__container">
+          <div class="episode__photo">
+            <img
+              src="img/latest_episodes/first_episode.svg"
+              alt="Autotune episode third"
+            />
+          </div>
+          <div class="container__information">
+            <h3 class="episode__category">Gear</h3>
+            <h2 class="episode__number">Episode 3</h2>
+            <p class="episode__name">Should you get outboard audio gear?</p>
+            <span class="episode__information"
+              >Is hardware really worth it when it comes to podcasting? The
+              answer is...it depends. Here’s our reasons on why you might want
+              to consider picking something up.</span
+            >
+            <button class="episode__button">View Episode Details</button>
+          </div>
+        </div>
+
+        <div class="episode__container">
+          <div class="episode__photo">
+            <img src="img/latest_episodes/third_episode.svg" alt=" " />
+          </div>
+          <div class="container__information">
+            <h3 class="episode__category">Tips & Tricks</h3>
+            <h2 class="episode__number">Episode 2</h2>
+            <p class="episode__name">
+              Mic tricks to take you to the next level
+            </p>
+            <span class="episode__information"
+              >Stop rolling with those default settings on your mic. These small
+              tweaks will take you from sounding good to great.</span
+            >
+            <button class="episode__button">View Episode Details</button>
+          </div>
+        </div>
+
+        <div class="episode__container">
+          <div class="episode__photo">
+            <img
+              src="img/latest_episodes/second_episode.svg"
+              alt="Speaker talking"
+            />
+          </div>
+          <div class="container__information">
+            <h3 class="episode__category">Gear</h3>
+            <h2 class="episode__number">Episode 1</h2>
+            <p class="episode__name">The best microphone under $200</p>
+            <span class="episode__information"
+              >With so many microphones on the market, how are you supposed to
+              know what’s the best? Take a look at our top picks.</span
+            >
+            <button class="episode__button">View Episode Details</button>
+          </div>
+        </div>
+    </section>
+    <section class="subscribe__form"></section>
+    <section class="ratest__colums"></section>
+    <footer class="footer"></footer>
+    <script src="script.js"></script>
+  </body>
 </html>
